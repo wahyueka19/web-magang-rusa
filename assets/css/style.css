@@ -1,0 +1,285 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.n-img {
+	background-image: url("../img/kinder.png");
+	background-size: 100% 150%;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+	color:rgba(250, 250, 250)
+}
+
+.navbar-dark .navbar-nav .active .nav-link {
+	color:rgb(255, 255, 255) !important;
+	font-weight:bolder;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+p {
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7em;
+}
+
+b {
+	font-weight: 600;
+}
+
+body {
+	background-color: #fdfce1;
+	max-height: 100vh;
+	overflow-y: hidden;
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.border-rad {
+	border-radius: 10px;
+}
+
+.fs_14 {
+	font-size: 14px;
+}
+
+.fs_12 {
+	font-size: 12px;
+}
+
+.img-carousel {
+	height: 250px;
+	object-fit: inherit;
+}
+
+.img-profile {
+	height: 45px;
+	width: 45px;
+}
+
+.prev-img-suggest {
+	width: 100px;
+	height: 100px;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: fill;
+}
+
+.img-artikel {
+	height: 300px;
+	max-height: 100%;
+	object-fit: fill;
+}
+
+.img-artikel-prev {
+	position: relative;
+	display: block;
+	height: 208px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.card-text img {
+	display: block;
+	margin: 0 auto;
+	width: 350px !important;
+}
+
+.h-fit-content {
+	height: fit-content;
+}
+
+.text-truncate-container {
+	width: fit-content;
+}
+.text-truncate-container p {
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.auth {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	display: flex;
+}
+
+.full_height {
+	display: block;
+	height: 100vh;
+	overflow-y: auto;
+}
+
+.fixer {
+	align-items: center;
+	align-content: center;
+}
+
+.wrapper {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.contact_height {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 78.75vh;
+}
+
+.bg_ash {
+	background-color: #f7f7f7;
+}
+
+.logo {
+	max-width: 50px;
+	max-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.icon_size {
+	font-size: 25px;
+}
+
+.clear:hover {
+	text-decoration: none;
+}
+
+.text-icn {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.tiktok_icn {
+	color: black;
+	border-style: solid;
+	border-color: #00f2ea;
+}
+
+.tiktok_red {
+	filter: drop-shadow(2px 0px 0px #ff0050) drop-shadow(-2px -2px 0px #00f2ea);
+}
+
+.instagram_icn {
+	background: #f09433;
+	background: -moz-linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
+	background: -webkit-linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
+	background: linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+	color: white;
+	border: none;
+}
+
+.facebook_icn {
+	background-color: #1877f2;
+	border: none;
+}
+
+.whatsapp_icn {
+	background-color: #25d366;
+	border: none;
+}
+
+.youtube_icn {
+	background-color: #ff0000;
+	border: none;
+}
+
+.click {
+	cursor: pointer;
+}
+
+.click:hover {
+	transform: scale(1.05);
+}
+
+.card {
+	transition: all 200ms ease-in-out;
+}
+
+.contact_form {
+	overflow: hidden;
+	border: 2px solid #d7d7d9;
+}
+
+/* chatbot */
+.chtbot{
+	height:18rem;
+	max-height:18rem; 
+	overflow-y: auto; 
+	display:flex; 
+	flex-direction: column-reverse;
+}
+
+.chtbot .scroller-content .item {
+  transform: translateZ(0); /* fixes a bug in Safari iOS where the scroller doesn't update */
+}
+
+.chat {
+	position: absolute; 
+	bottom: 20px; 
+	right: 20px;
+	border: none;
+    outline: none;
+	display: block;
+}
+
+.chat:focus, .chat:hover, .chat:active {
+    outline: none;
+	border: none;
+	box-shadow: none;
+}
+
+.length {
+	height:25rem; 
+	max-height:25rem; 
+	width:29.10rem;
+}
+
+.btn-custom {
+	background: none; 
+	color: inherit; 
+	border: none; 
+	padding: 0; 
+	outline: inherit;
+}
+
+/* .input-custom:focus {
+	border:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	outline: none;
+} */
